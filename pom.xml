@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com</groupId>
-  <artifactId>calculator</artifactId>
+  <artifactId>Pavancalculator</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>calculator</name>
+  <name>Pavancalculator</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -20,6 +20,10 @@
 	    <version>1.2.17</version>
 	  </dependency>
   </dependencies>  
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
   <build>
         <resources>
           <resource>
